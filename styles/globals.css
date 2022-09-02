@@ -24,3 +24,6 @@ a {
     background: black;
   }
 }
+ol {
+  padding: 2px 0 0 12px
+}

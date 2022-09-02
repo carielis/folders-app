@@ -1,0 +1,104 @@
+{
+    "folder" : [{
+        "title": "Main folder",
+        "folders": [
+            {
+                "title": "1 Folder",
+                "folders": [
+                    {
+                        "title": "2 Folder",
+                        "folders": [
+                            {
+                                "title": "3 Folder",
+                                "folders": [
+                                    {
+                                        "title": "4 Folder",
+                                        "folders": [
+                
+                                        ],
+                                        "files": [
+                                            {"title": "1 File"},
+                                            {"title": "2 File"},
+                                            {"title": "3 File"},
+                                            {"title": "4 File"},
+                                            {"title": "5 File"}
+                                        ]
+                                    }
+                                ],
+                                "files": [
+                                    {"title": "1 File"},
+                                    {"title": "2 File"},
+                                    {"title": "3 File"},
+                                    {"title": "4 File"},
+                                    {"title": "5 File"}
+                                ]
+                            }
+                        ],
+                        "files": [
+                            {"title": "1 File"},
+                            {"title": "2 File"},
+                            {"title": "3 File"},
+                            {"title": "4 File"},
+                            {"title": "5 File"}
+                        ]
+                    }
+                ],
+                "files": [
+                    {"title": "1 File"},
+                    {"title": "2 File"},
+                    {"title": "3 File"},
+                    {"title": "4 File"},
+                    {"title": "5 File"}
+                ]
+            },
+            {
+                "title": "5 Folder",
+                "folders": [
+                    {
+                        "title": "6 Folder",
+                        "folders": [
+                            {
+                                "title": "7 Folder",
+                                "folders": [
+                                    {
+                                        "title": "8 Folder",
+                                        "folders": [],
+                                        "files": [
+                                            {"title": "1 File"},
+                                            {"title": "2 File"},
+                                            {"title": "3 File"},
+                                            {"title": "4 File"},
+                                            {"title": "5 File"}
+                                        ]
+                                    }
+                                ],
+                                "files": [
+                                    {"title": "1 File"},
+                                    {"title": "2 File"},
+                                    {"title": "3 File"},
+                                    {"title": "4 File"},
+                                    {"title": "5 File"}
+                                ]
+                            }
+                        ],
+                        "files": [
+                            {"title": "1 File"},
+                            {"title": "2 File"},
+                            {"title": "3 File"},
+                            {"title": "4 File"},
+                            {"title": "5 File"}
+                        ]
+                    }
+                ],
+                "files": [
+                    {"title": "1 File"},
+                    {"title": "2 File"},
+                    {"title": "3 File"},
+                    {"title": "4 File"},
+                    {"title": "5 File"}
+                ]
+            }
+        ],
+        "files": []
+    }]
+}
