@@ -1,7 +1,16 @@
 import { FC } from "react";
 
-export const ArrowSvg: FC = () => (
+interface Props {
+  isOpen: boolean;
+}
+
+export const ArrowSvg: FC<Props> = (props) => (
   <svg
+    style={
+      props.isOpen
+        ? { transition: "all 0.2s" }
+        : { transition: "all 0.2s", rotate: "-90deg" }
+    }
     width="12"
     height="8"
     viewBox="0 0 12 8"

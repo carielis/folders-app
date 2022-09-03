@@ -11,7 +11,7 @@ interface Props {
 }
 
 export const File: FC<Props> = ({ file }) => (
-  <ol id="file">
+  <ol className={styles.block} id="file">
     <FileSvg /> {file.title}
   </ol>
 );

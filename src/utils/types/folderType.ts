@@ -4,4 +4,5 @@ export type folderType = {
     title: string;
     folders: folderType[];
     files: fileType[];
+    id: number;
 };

@@ -1,16 +1,7 @@
 import { FC } from "react";
 
-interface Props {
-  isOpen: boolean;
-}
-
-export const TriangleSvg: FC<Props> = (props) => (
+export const TriangleSvg: FC = () => (
   <svg
-    style={
-      props.isOpen
-        ? { rotate: "90deg", transition: "all 0.2s" }
-        : { transition: "all 0.2s" }
-    }
     width="13"
     height="20"
     viewBox="0 0 13 20"

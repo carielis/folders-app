@@ -1,10 +1,10 @@
-import { FC, useCallback, useState } from "react";
+import React, { FC, Fragment, useCallback, useState } from "react";
 
 import { fileType } from "../../../utils/types/fileType";
 import { folderType } from "../../../utils/types/folderType";
 
-import { FolderSvg, TriangleSvg } from "../../svg";
 import { File } from "../File/Fille";
+import { Folder } from "../Folder/Folder";
 
 import styles from "./styles.module.css";
 
@@ -21,19 +21,20 @@ export const RenderItem: FC<Props> = ({ item }) => {
     <>
       {item?.folders?.map((folder: folderType, index: number) => {
         return (
-          <div className={styles.block} key={index + index + 3}>
+          <div className={styles.block} key={folder.id}>
             <ol>
-              <div className={styles.block} id="folder" onClick={handleOpen}>
-                <TriangleSvg isOpen={isOpen} />
-                <FolderSvg /> {folder.title}
-              </div>
+              <Folder
+                folder={folder.title}
+                isOpen={isOpen}
+                handleOpen={handleOpen}
+              />
               {isOpen && (
                 <ol>
                   <RenderItem item={folder} />
                   {folder.files.map((file: fileType, index: number) => (
-                    <>
+                    <Fragment key={file.id}>
                       <File file={file} />
-                    </>
+                    </Fragment>
                   ))}
                 </ol>
               )}

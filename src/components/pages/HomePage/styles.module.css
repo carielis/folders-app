@@ -18,3 +18,18 @@
     transition: all 0.2s;
 
 }
+
+.mainFolder {
+    margin-left: 54px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.menuItem {
+    margin-left: 64px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+}
